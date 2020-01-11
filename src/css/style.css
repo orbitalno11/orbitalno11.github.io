@@ -67,7 +67,8 @@ body {
 
 #myContent {
     padding: 0rem 1.5rem 1.5rem 1.5rem;
-    /*width: 75%;*/
+    width: 100%;
+    font-size: 1.25rem;
 }
 
 #dismiss{
@@ -115,35 +116,48 @@ body {
     display: none;
 }
 
-.center-box {
-    display: table-cell;
-    vertical-align: middle;
-    height: 3.5rem;
+/*.center-box {*/
+/*    display: table-cell;*/
+/*    vertical-align: middle;*/
+/*    height: 3.5rem;*/
+/*    width: 100%;*/
+/*}*/
+
+.header-box {
+    background-color: #135193;
+    border-radius: 0.35rem;
+    color: white;
+    padding: 0.5rem;
+    margin: 2.5rem auto 1rem auto;
+}
+
+.header-box h2,h3{
+    margin: auto;
 }
 
 .social-box {
     background-color: #0984e3;
-    padding: 1rem;
-    border-radius: 0.5rem;
+    /*padding: 1rem;*/
+    border-radius: 0.35rem;
 }
 
 .my-social-link {
     font-size: 1.25rem;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .my-social-link:hover {
     font-weight: bold;
     text-decoration: none;
-    color: white;
-    text-shadow: 2px 2px 4px #000000;
+    color: black;
+    text-shadow: 2px 2px 4px #ccc;
     transition: 0.2s;
 }
 
 .social-svg {
-    fill: white;
+    fill: black;
 }
 
 p {
@@ -183,6 +197,28 @@ p {
 
 li {
     font-size: 1.2rem;
+}
+
+.interested-box {
+    padding: 1rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+/*.interested-box:hover{*/
+/*    border-radius: 0.35rem;*/
+/*    box-shadow: 3px 3px 5px 6px #ccc;*/
+/*    transition: 0.2s;*/
+/*}*/
+
+.my-fields {
+    background-color: #0984e3;
+    border-radius: 0.35rem;
+}
+
+.page-name{
+    margin: 1.5rem auto 1.5rem auto;
+    width: 100%;
 }
 
 @media screen and (max-width: 600px) {

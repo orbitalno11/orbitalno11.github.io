@@ -8,7 +8,7 @@ class NavBar extends Component {
         return (
             <div>
                 <div className="container p-4">
-                    <a id="dismiss" href="#"><FontAwesomeIcon icon={"arrow-left"} size="2x"/></a>
+                    <div id="dismiss"><FontAwesomeIcon icon={"arrow-left"} size="2x"/></div>
                 </div>
                 <nav className="navbar navbar-dark">
                     <div className="container">

@@ -7,6 +7,8 @@ import {Route} from 'react-router-dom'
 // import Component
 import NavBar from './Components/navbar.js'
 import Home from './Components/home.js'
+import Work from './Components/work'
+import Education from "./Components/education";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -15,9 +17,6 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 library.add(fas, fab, far)
 
-
-const Work = () => <h1>Work</h1>
-const Education = () => <h1>Education</h1>
 const Portfolio = () => <h1>Portfolio</h1>
 
 function App() {
@@ -25,19 +24,11 @@ function App() {
         <React.Fragment>
             <div id="myContainer" className="wrapper">
                 <div id="mynav">
-                    <NavBar/>
+                    <NavBar />
                 </div>
                 <div id="myContent">
                     <nav className="navbar navbar-expand-lg navbar-light">
-                        <div className="container-fluid">
-                            <div>
-                                <a id="sidebarCollapse" href="#"><FontAwesomeIcon icon={"bars"} size="2x"/></a>
-                            </div>
-                            {/*<button type="button" id="sidebarCollapse" className="btn btn-info">*/}
-                            {/*    <FontAwesomeIcon icon="align-left" size="2x" />*/}
-                            {/*    <span>Toggle Sidebar</span>*/}
-                            {/*</button>*/}
-                        </div>
+                        <div id="sidebarCollapse"><FontAwesomeIcon icon="bars" size="2x"/></div>
                     </nav>
                     <Route exact path="/" component={Home}/>
                     <Route exact path="/work" component={Work}/>
@@ -48,7 +39,6 @@ function App() {
             <div className="footer">
                 footer
             </div>
-            {/*<div className="overlay"></div>*/}
         </React.Fragment>
 
     );

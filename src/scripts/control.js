@@ -27,4 +27,8 @@ $(document).ready(() => {
 
         // $('a[aria-expanded=true]').attr('aria-expanded', 'false');
     });
+
+    $('.nav-item').on('click', () =>{
+        $('#mynav').toggleClass('active')
+    })
 })
