@@ -1,0 +1,208 @@
+@font-face {
+    font-family: OpenSans-Quark;
+    src: url(font/quark/Quark-Light.otf);
+}
+
+@font-face {
+    font-family: OpenSans-Quark;
+    src: url(font/quark/Quark-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: OpenSans-Quark;
+    src: url(font/opensans/OpenSans-Light.ttf);
+    unicode-range: U+41-5A, U+61-7A, U+C0-FF;
+}
+
+@font-face {
+    font-family: OpenSans-Quark;
+    src: url(font/opensans/OpenSans-Bold.ttf);
+    font-weight: bold;
+    unicode-range: U+41-5A, U+61-7A, U+C0-FF;
+}
+
+html {
+    height: 100%;
+}
+
+* {
+    font-family: OpenSans-Quark, Helvetica, sans-serif;
+}
+
+body {
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+#root {
+    height: 100%;
+}
+
+#mynav {
+    background-color: #135193;
+    font-size: large;
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    margin-left: -250px;
+    /*position: fixed;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*height: 100vh;*/
+    /*z-index: 999;*/
+    /*width: 25%;*/
+    /*height: 100%;*/
+}
+
+#mynav.active {
+    margin-left: 0px;
+}
+
+#myContainer {
+    min-height: 100%;
+}
+
+
+#myContent {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    /*width: 75%;*/
+}
+
+#dismiss{
+    text-decoration: none;
+    color: white;
+}
+
+#sidebarCollapse{
+    color: #135193;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+
+.hr {
+    border-color: #135193;
+    border-width: thick;
+}
+
+.footer {
+    background-color: #135193;
+    padding: 1em;
+    /* padding-top: 2rem; */
+    color: white;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.imgprofile {
+    height: 200px;
+}
+
+.social-img {
+    height: 2.5rem;
+}
+
+#desktopmenu {
+    display: block;
+}
+
+#mobilemenu {
+    display: none;
+}
+
+.center-box {
+    display: table-cell;
+    vertical-align: middle;
+    height: 3.5rem;
+}
+
+.social-box {
+    background-color: #0984e3;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.my-social-link {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.my-social-link:hover {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    transition: 0.2s;
+}
+
+.social-svg {
+    fill: white;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+.head-text {
+    border-bottom: 5px #135193 solid;
+}
+
+.pro-skill-box {
+    /*background-color: #2ed573;*/
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+.pro-skill-box ul{
+    padding: 1rem;
+}
+
+.pro-skill-box ul:hover {
+    /*border: 10px black solid;*/
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    transition: 0.2s;
+}
+
+.pro-skill-box ul {
+    list-style: none;
+}
+
+.pro-skill-icon {
+    width: 2rem;
+    margin-right: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+li {
+    font-size: 1.2rem;
+}
+
+@media screen and (max-width: 600px) {
+    #desktopmenu {
+        display: none;
+    }
+
+    #mobilemenu {
+        display: block;
+    }
+
+    #mynav {
+        margin-left: -250px;
+    }
+
+    #mynav.active{
+        margin-left: 0;
+    }
+
+    #myContent {
+        margin-top: 0.5rem;
+    }
+}
