@@ -10,9 +10,11 @@ class Home extends Component {
                         <img src={require('../img/pic.png')} className="imgprofile"/>
                     </div>
                     <div className="col-12 col-md-12 col-lg-8 text-center">
-                        <div className="center-box">
-                            <h1><strong>SITTHINON SUEA-WAI</strong></h1>
-                            <h2>Web and mobile application developer.</h2>
+                        <div className="box-center">
+                            <div style={{alignSelf: "center"}}>
+                                <h1><strong>SITTHINON SUEA-WAI</strong></h1>
+                                <h2>Web and mobile application developer.</h2>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -116,9 +118,9 @@ class Home extends Component {
                                     </svg>
                                 </div>
                                 <div className="col-10 col-md-5 col-lg-5">
-                                    <div className="center-box">
+                                    <div className="box-center">
                                         <a className="my-social-link"
-                                           href="tel:+66939427647">(+66) 93-942-7647</a>
+                                           href="tel:+66939427647" style={{alignSelf: "center"}}>(+66) 93-942-7647</a>
                                     </div>
                                 </div>
                                 <div className="col-2 col-md-1 col-lg-1 text-center mt-2">
@@ -128,9 +130,9 @@ class Home extends Component {
                                     </svg>
                                 </div>
                                 <div className="col-10 col-md-5 col-lg-5">
-                                    <div className="center-box">
+                                    <div className="box-center">
                                         <a className="my-social-link"
-                                           href="mailto:sitthinon.s@hotmail.com">sitthinon.s@hotmail.com</a>
+                                           href="mailto:sitthinon.s@hotmail.com" style={{alignSelf: "center"}}>sitthinon.s@hotmail.com</a>
                                     </div>
                                 </div>
                                 <div className="col-2 col-md-1 col-lg-1 text-center mt-2">
@@ -140,9 +142,9 @@ class Home extends Component {
                                     </svg>
                                 </div>
                                 <div className="col-10 col-md-5 col-lg-5">
-                                    <div className="center-box">
+                                    <div className="box-center">
                                         <a className="my-social-link"
-                                           href="https://github.com/orbitalno11">github.com/orbitalno11</a>
+                                           href="https://github.com/orbitalno11" style={{alignSelf: "center"}}>github.com/orbitalno11</a>
                                     </div>
                                 </div>
                                 <div className="col-2 col-md-1 col-lg-1 text-center mt-2">
@@ -152,9 +154,9 @@ class Home extends Component {
                                     </svg>
                                 </div>
                                 <div className="col-10 col-md-5 col-lg-5">
-                                    <div className="center-box">
+                                    <div className="box-center">
                                         <a className="my-social-link"
-                                           href="https://medium.com/@stn.nths">medium.com/@stn.nths</a>
+                                           href="https://medium.com/@stn.nths" style={{alignSelf: "center"}}>medium.com/@stn.nths</a>
                                     </div>
                                 </div>
                                 <div className="col-2 col-md-1 col-lg-1 text-center mt-2">
@@ -164,8 +166,8 @@ class Home extends Component {
                                     </svg>
                                 </div>
                                 <div className="col-10 col-md-5 col-lg-5">
-                                    <div className="center-box">
-                                        <a className="my-social-link" href="https://facebook.com/sitthinon.s">Aob
+                                    <div className="box-center">
+                                        <a className="my-social-link" href="https://facebook.com/sitthinon.s" style={{alignSelf: "center"}}>Aob
                                             Sitthinon</a>
                                     </div>
                                 </div>
@@ -176,9 +178,9 @@ class Home extends Component {
                                     </svg>
                                 </div>
                                 <div className="col-10 col-md-5 col-lg-5">
-                                    <div className="center-box">
+                                    <div className="box-center">
                                         <a className="my-social-link"
-                                           href="https://www.instagram.com/sitthinon.s">sitthinon.s</a>
+                                           href="https://www.instagram.com/sitthinon.s" style={{alignSelf: "center"}}>sitthinon.s</a>
                                     </div>
                                 </div>
                             </div>

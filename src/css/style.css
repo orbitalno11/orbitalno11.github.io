@@ -242,7 +242,7 @@ li {
     width: 10rem;
 }
 
-.center-box{
+.box-center{
     display: flex;
     /*justify-content: center;*/
     /*align-items: center;*/

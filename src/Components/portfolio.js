@@ -45,7 +45,7 @@ class Portfolio extends Component {
                                     <img src={require('../img/find-my-house-logo.png')} className="fmh-logo"/>
                                 </div>
                                 <div className="col-12 col-md-8 col-lg-8">
-                                    <div className="center-box">
+                                    <div className="box-center">
                                         <div className="btn-group" style={{alignSelf: "center"}}>
                                             <a href="https://find-my-house.herokuapp.com/"
                                                className="btn btn-outline-primary">Enter

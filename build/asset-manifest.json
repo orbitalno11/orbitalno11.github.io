@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.85c94492.chunk.css",
-    "main.js": "/static/js/main.a100f605.chunk.js",
-    "main.js.map": "/static/js/main.a100f605.chunk.js.map",
+    "main.css": "/static/css/main.88e4e706.chunk.css",
+    "main.js": "/static/js/main.d79347b4.chunk.js",
+    "main.js.map": "/static/js/main.d79347b4.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f9b8ead5.js",
     "runtime-main.js.map": "/static/js/runtime-main.f9b8ead5.js.map",
     "static/css/2.47e06e2e.chunk.css": "/static/css/2.47e06e2e.chunk.css",
     "static/js/2.29a5d798.chunk.js": "/static/js/2.29a5d798.chunk.js",
     "static/js/2.29a5d798.chunk.js.map": "/static/js/2.29a5d798.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.895a0cedccaf893c5659c993ac40ad9c.js": "/precache-manifest.895a0cedccaf893c5659c993ac40ad9c.js",
+    "precache-manifest.b39c77e21c6f0de6473f6120fd502f2d.js": "/precache-manifest.b39c77e21c6f0de6473f6120fd502f2d.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.85c94492.chunk.css.map": "/static/css/main.85c94492.chunk.css.map",
+    "static/css/main.88e4e706.chunk.css.map": "/static/css/main.88e4e706.chunk.css.map",
     "static/js/2.29a5d798.chunk.js.LICENSE": "/static/js/2.29a5d798.chunk.js.LICENSE",
     "static/media/style.css": "/static/media/Quark-Light.51610d87.otf",
     "static/media/Poster_UniGo.png": "/static/media/Poster_UniGo.06dbcbe7.png",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.f9b8ead5.js",
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.29a5d798.chunk.js",
-    "static/css/main.85c94492.chunk.css",
-    "static/js/main.a100f605.chunk.js"
+    "static/css/main.88e4e706.chunk.css",
+    "static/js/main.d79347b4.chunk.js"
   ]
 }
