@@ -9,6 +9,7 @@ import NavBar from './Components/navbar.js'
 import Home from './Components/home.js'
 import Work from './Components/work'
 import Education from "./Components/education";
+import Portfolio from "./Components/portfolio";
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -17,7 +18,7 @@ import { fab } from "@fortawesome/free-brands-svg-icons";
 import { far } from "@fortawesome/free-regular-svg-icons";
 library.add(fas, fab, far)
 
-const Portfolio = () => <h1>Portfolio</h1>
+
 
 function App() {
     return (
@@ -36,9 +37,9 @@ function App() {
                     <Route exact path="/portfolio" component={Portfolio}/>
                 </div>
             </div>
-            <div className="footer">
-                footer
-            </div>
+            {/*<div className="footer">*/}
+            {/*    footer*/}
+            {/*</div>*/}
         </React.Fragment>
 
     );

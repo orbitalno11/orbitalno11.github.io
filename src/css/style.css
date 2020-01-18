@@ -221,6 +221,35 @@ li {
     width: 100%;
 }
 
+.my-circle-point{
+    border-radius: 50%;
+    background-color: #135193;
+    height: 1rem;
+    width: 1rem;
+    display: inline-block;
+}
+
+.unigo-icon {
+    width: 10rem;
+    border-radius: 1rem;
+}
+
+.unigo-poster{
+    width: 50%;
+}
+
+.fmh-logo{
+    width: 10rem;
+}
+
+.center-box{
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    height: 100%;
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) {
     #desktopmenu {
         display: none;
@@ -240,5 +269,10 @@ li {
 
     #myContent {
         margin-top: 0.5rem;
+    }
+
+    .unigo-poster{
+        width: 100%;
+        margin-top: 2rem;
     }
 }
