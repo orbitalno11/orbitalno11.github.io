@@ -2,7 +2,7 @@
   "name": "githubpage",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://orbitalno11.github.io",
+  "homepage": "https://orbitalno11.github.io/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
@@ -18,7 +18,10 @@
     "malihu-custom-scrollbar-plugin": "^3.1.5",
     "popper.js": "^1.16.0",
     "react": "^16.12.0",
+    "react-animated-css": "^1.2.1",
+    "react-bootstrap": "^1.2.2",
     "react-dom": "^16.12.0",
+    "react-responsive": "^8.1.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.3.0"
   },
