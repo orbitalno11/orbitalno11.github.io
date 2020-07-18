@@ -7,12 +7,13 @@ import { Route, Switch } from 'react-router-dom'
 // import Component
 import NavBar from './Components/navbar.js'
 // import Home from './Components/home.js'
-import Work from './Components/work'
+// import Work from './Components/work'
 import Education from "./Components/education";
 import Portfolio from "./Components/portfolio";
 
 // edition
 import Home from './layout/home'
+import Work from './layout/work'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from "@fortawesome/free-solid-svg-icons";
@@ -28,6 +29,7 @@ function App() {
             <NavBar />
             <Switch>
                 <Route exact path="/" component={Home} />
+                <Route exact path="/work" component={Work}/>
             </Switch>
             {/* <div id="myContainer" className="wrapper">
                 <div id="mynav">
