@@ -57,7 +57,7 @@ class NavBar extends Component {
                                 <NavLink exact to="/portfolio" className="nav-link" activeClassName="navActive">{pageName[3]}</NavLink>
                             </Nav.Item>
                             <Nav.Item>
-                                <NavLink exact to="/aboutme" className="nav-link" activeClassName="navActive">{pageName[4]}</NavLink>
+                                <NavLink exact to="/whoami" className="nav-link" activeClassName="navActive">{pageName[4]}</NavLink>
                             </Nav.Item>
                         </Nav>
                     </Navbar>
@@ -84,7 +84,7 @@ class NavBar extends Component {
                                                     <NavLink exact to="/portfolio" className="nav-link" activeClassName="navActive" onClick={this.onClick}>{pageName[3]}</NavLink>
                                                 </Nav.Item>
                                                 <Nav.Item>
-                                                    <NavLink exact to="/aboutme" className="nav-link" activeClassName="navActive" onClick={this.onClick}>{pageName[4]}</NavLink>
+                                                    <NavLink exact to="/whoami" className="nav-link" activeClassName="navActive" onClick={this.onClick}>{pageName[4]}</NavLink>
                                                 </Nav.Item>
                                             </Animated>
                                         </Nav>
