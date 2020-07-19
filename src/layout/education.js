@@ -32,8 +32,8 @@ class Education extends Component {
                                 Dipangkornwittayapat (Mattayom Wat Hattasarn Kaset) Under the Royal School<br />Pathumthani, Thailand
                             </Fragment>
                         }
-                        start={"August 2017"}
-                        end={"Present"}
+                        start={"May 2011"}
+                        end={"March 2017"}
                         image={DP5} />
                 </Container>
             </Fragment>
