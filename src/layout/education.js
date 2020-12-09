@@ -19,7 +19,7 @@ class Education extends Component {
                         className={<strong>B.Sc. (Applied Computer Science)</strong>}
                         schoolName={
                             <Fragment>
-                                King Mongkut's University of Technology Thonburi (KMUTT)<br />Bangkok, Thailand
+                                King Mongkut's University of Technology Thonburi (KMUTT)<br />Bangkok, Thailand<br />GPA 3.79
                             </Fragment>
                         }
                         start={"August 2017"}
