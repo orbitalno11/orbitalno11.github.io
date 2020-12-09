@@ -40,7 +40,7 @@ class Portfolio extends Component {
                         <Col xs={12} md={10}>
                             <Project
                                 name="Wishlist"
-                                detail={"This project is the web application for education management. Use JavaScript to develop this web using express as a back-end framework and use other service such as firebase and LINE APIs. (This project is under development)"}
+                                detail={"This project is the web application for education management. Use JavaScript to develop this web using express as a back-end framework and use other service such as firebase and LINE APIs (This project is under development)."}
                             />
                             <Project
                                 name="14D-Diary"
