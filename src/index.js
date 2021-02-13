@@ -12,12 +12,12 @@ import './css/style.css'
 import './scripts/control'
 
 // import route tools
-import { HashRouter } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 
 const AppWithRouter = () => (
-    <HashRouter basename='/'>
+    <BrowserRouter>
         <App/>
-    </HashRouter>
+    </BrowserRouter>
 )
 
 ReactDOM.render(<AppWithRouter/>, document.getElementById('root'));
