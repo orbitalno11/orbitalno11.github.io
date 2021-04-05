@@ -34,7 +34,7 @@ class AboutMe extends Component {
                                     <div className="box-center text-center mt-2">
                                         <div style={{ alignSelf: "center" }}>
                                             <h1><strong>SITTHINON<br />SUEA-WAI</strong></h1>
-                                            <h2>Web and mobile application developer.</h2>
+                                            <h2>Mobile application and web developer.</h2>
                                         </div>
                                     </div>
                                 </MediaQuery>

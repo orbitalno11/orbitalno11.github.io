@@ -25,7 +25,7 @@ class Work extends Component {
                             </ul>
                         }
                         start={"June 2019"}
-                        end={"Present"}
+                        end={"December 2020"}
                         image={LS} />
                     <WorkBox
                         name={<Fragment><strong>Dean's Office, </strong><span style={{ fontSize: "1.25rem" }}>School of Liberal Arts, KMUTT</span></Fragment>}

@@ -20,7 +20,7 @@ function App() {
         <React.Fragment>
             <NavBar />
             <Switch>
-                <Route exact path="/" component={Home} />
+                <Route exact path="/" component={AboutMe} />
                 <Route exact path="/work" component={Work}/>
                 <Route exact path="/education" component={Education}/>
                 <Route exact path="/portfolio" component={Portfolio}/>

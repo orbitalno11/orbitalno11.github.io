@@ -44,8 +44,11 @@ class NavBar extends Component {
                 <MediaQuery minDeviceWidth={minDeviceWidth}>
                     <Navbar expand="md lg">
                         <Nav className="ml-auto">
-                            <Nav.Item>
+                            {/* <Nav.Item>
                                 <NavLink exact to="/" className="nav-link" activeClassName="navActive">{pageName[0]}</NavLink>
+                            </Nav.Item> */}
+                            <Nav.Item>
+                                <NavLink exact to="/" className="nav-link" activeClassName="navActive">{pageName[4]}</NavLink>
                             </Nav.Item>
                             <Nav.Item>
                                 <NavLink exact to="/work" className="nav-link" activeClassName="navActive">{pageName[1]}</NavLink>
@@ -55,9 +58,6 @@ class NavBar extends Component {
                             </Nav.Item>
                             <Nav.Item>
                                 <NavLink exact to="/portfolio" className="nav-link" activeClassName="navActive">{pageName[3]}</NavLink>
-                            </Nav.Item>
-                            <Nav.Item>
-                                <NavLink exact to="/whoami" className="nav-link" activeClassName="navActive">{pageName[4]}</NavLink>
                             </Nav.Item>
                         </Nav>
                     </Navbar>
@@ -71,8 +71,11 @@ class NavBar extends Component {
                                     <div className="mobile-nav" >
                                         <Nav>
                                             <Animated animationIn="fadeInUp" isVisible={true} animationInDuration={1500}>
-                                                <Nav.Item>
+                                                {/* <Nav.Item>
                                                     <NavLink exact to="/" className="nav-link" activeClassName="navActive" onClick={this.onClick}>{pageName[0]}</NavLink>
+                                                </Nav.Item> */}
+                                                <Nav.Item>
+                                                    <NavLink exact to="/" className="nav-link" activeClassName="navActive" onClick={this.onClick}>{pageName[4]}</NavLink>
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <NavLink exact to="/work" className="nav-link" activeClassName="navActive" onClick={this.onClick}>{pageName[1]}</NavLink>
@@ -82,9 +85,6 @@ class NavBar extends Component {
                                                 </Nav.Item>
                                                 <Nav.Item>
                                                     <NavLink exact to="/portfolio" className="nav-link" activeClassName="navActive" onClick={this.onClick}>{pageName[3]}</NavLink>
-                                                </Nav.Item>
-                                                <Nav.Item>
-                                                    <NavLink exact to="/whoami" className="nav-link" activeClassName="navActive" onClick={this.onClick}>{pageName[4]}</NavLink>
                                                 </Nav.Item>
                                             </Animated>
                                         </Nav>
