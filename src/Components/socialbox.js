@@ -1,10 +1,10 @@
-import React, { Fragment } from 'react'
-import { Col } from 'react-bootstrap'
+import React from 'react'
+import { Col, Row } from 'react-bootstrap'
 
 
 export default ({ image, title, link }) => (
-    <Fragment>
-        <Col xs={2} md={1} className="text-center mt-2">
+    <Row className="my-3">
+        <Col xs={2} md={1} className="text-center">
             {image}
         </Col>
         <Col xs={10} md={5}>
@@ -13,5 +13,5 @@ export default ({ image, title, link }) => (
                     href={link} style={{ alignSelf: "center" }}>{title}</a>
             </div>
         </Col>
-    </Fragment>
+    </Row>
 )

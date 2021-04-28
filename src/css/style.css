@@ -173,6 +173,7 @@ body {
 }
 
 .imgprofile {
+    border-radius: 50%;
     height: 200px;
 }
 
@@ -219,19 +220,18 @@ body {
 }
 
 .my-social-link {
-    font-size: 1.25rem;
     font-weight: bold;
     text-decoration: none;
     color: black;
 }
 
-.my-social-link:hover {
+/* .my-social-link:hover {
     font-weight: bold;
     text-decoration: none;
     color: black;
     text-shadow: 2px 2px 4px #ccc;
     transition: 0.2s;
-}
+} */
 
 .social-svg {
     fill: black;
@@ -251,20 +251,17 @@ p {
     padding: 0.5rem;
 }
 
-.pro-skill-box ul {
-    padding: 1rem;
+.pro-skill-box ul > li {
+    list-style-type: none;
+    padding-bottom: 0.5rem;
 }
 
-.pro-skill-box ul:hover {
-    /*border: 10px black solid;*/
+/* .pro-skill-box ul:hover {
+    border: 10px black solid;
     border-radius: 0.5rem;
     box-shadow: 3px 3px 5px 6px #ccc;
     transition: 0.2s;
-}
-
-.pro-skill-box ul {
-    list-style: none;
-}
+} */
 
 .pro-skill-icon {
     width: 2rem;

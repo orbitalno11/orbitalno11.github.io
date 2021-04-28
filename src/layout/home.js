@@ -11,8 +11,6 @@ import { mediumFetch } from '../utils/Constants'
 // component
 import Article from '../Components/article'
 
-
-
 class Home extends Component {
 
     constructor(props) {

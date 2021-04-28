@@ -14,8 +14,8 @@ export default ({ name, detail, imgList }) => (
                 imgList !== null && imgList !== undefined && (
                     imgList.length !== 0 && (
                         imgList.map((item, index) => (
-                            <Col xs="auto" key={index} className="mx-auto d-block">
-                                <img className="my-2" src={item} alt={name + index} style={{ height: "15rem"}} />
+                            <Col xs="6" md="3" key={index} className="my-auto" >
+                                <img className="my-2" src={item} alt={name + index} className="mx-auto" style={{ width: "100%" }} />
                             </Col>
                         ))
                     )

@@ -8,7 +8,6 @@ import { Route, Switch } from 'react-router-dom'
 import NavBar from './Components/navbar.js'
 
 // edition
-import Home from './layout/home'
 import Work from './layout/work'
 import Education from './layout/education'
 import Portfolio from "./layout/portfolio";
